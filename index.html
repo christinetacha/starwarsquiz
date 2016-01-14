@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/styles.css" type="text/css" rel="stylesheet" media="all">
+    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <meta name="description" content="Welcome to vacation finder, your guide to your next vacation"/>
+    <title>Which Star Wars character are you?</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="jumbotron">
+          <img src="http://a.dilcdn.com/bl/wp-content/uploads/sites/6/2015/10/tfa_poster_wide_header-1536x864-959818851016.jpg"/>
+          <h1>Which Star Wars character are you?</h1>
+
+        </div>
+        <h3>Answer these questions.</h3>
+      <form id="starWars">
+        <ul>
+          <li><label for="rebel">On a scale of 1-10, how rebellious are you?:</label>
+          <input id="rebel" type="text">
+          <li><label for="gender">Which gender do you identify with?</label>
+          <select id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+          <li><label for="ewoks">Do you like Ewoks?</label>
+          <select id="ewoks">
+            <option value="yes">yes</option>
+            <option value="no">no</option>
+          </select>
+
+          <li><button type="submit" class="btn btn-danger">Which character am I?</button></li>
+        </ul>
+      </form>
+
+      <div id="result">
+        <h4>You are <span id="characterName"></span>.</h4>
+      </div>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,22 @@
+body {
+  font-size: 18px;
+  color: #DBC430;
+  background-color: black;
+}
+
+.jumbotron {
+  background: transparent !important;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+#result {
+  display: none;
+}
+
+ul {
+  list-style: none;
+}
