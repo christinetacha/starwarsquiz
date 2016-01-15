@@ -2,14 +2,32 @@ body {
   font-size: 18px;
   color: #DBC430;
   background-color: black;
-}
 
+	position: absolute;
+	width: 850px;
+	height: auto;
+	bottom: 200px;
+	left: 550px;
+	margin-left: -8em;
+	font-size: 350%;
+	font-weight: bold;
+	text-align: justify;
+	overflow: hidden;
+	transform-origin: 55% 80%;
+	transform: perspective(500px) rotateX(25deg);
+
+}
 .jumbotron {
   background: transparent !important;
 }
 
 img {
-  width: 100%;
+  width: 75%;
+  height: auto;
+}
+
+.character {
+  width: 40%;
   height: auto;
 }
 
